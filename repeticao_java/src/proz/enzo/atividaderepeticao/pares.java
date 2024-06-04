@@ -11,6 +11,10 @@ public class pares {
         int num2 = scan.nextInt();
         int par = 0;
         while (num1>= par && num2 <= par) {
+           if (par % 2 == 0) {
+            System.out.println(par);
+            
+           }
             
             
         }
